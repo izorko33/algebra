@@ -1,0 +1,11 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="60" cy="60" r="58.5" fill="#FFE6A5" stroke="black" stroke-width="3"/>
+<line x1="64.3675" y1="53.1026" x2="103.368" y2="40.1026" stroke="black" stroke-width="4"/>
+<path d="M66 51.5C66 60.5 89.5 70 94.5 42.5" stroke="black" stroke-width="3"/>
+<path d="M75.5 50.5001C75.5 54 84.2509 54.2585 83.5 47.5001L75.5 50.5001Z" fill="black" stroke="black" stroke-width="3"/>
+<line y1="-2" x2="41.1096" y2="-2" transform="matrix(-0.948683 -0.316228 -0.316228 0.948683 55 55)" stroke="black" stroke-width="4"/>
+<path d="M54 51.5C54 60.5 30.5 70 25.5 42.5" stroke="black" stroke-width="3"/>
+<path d="M44.5 50.5001C44.5 54 35.7491 54.2585 36.5 47.5001L44.5 50.5001Z" fill="black" stroke="black" stroke-width="3"/>
+<path d="M83 72L81.5 79.75L80 87.5L76 88L65.5 89.3125L44 92L65.5 80.9744L71.3 78L77.5 74.8205L83 72Z" fill="white"/>
+<path d="M44 92L81.5 79.75M44 92L65.5 80.9744M44 92L65.5 89.3125M81.5 79.75L83 72L77.5 74.8205M81.5 79.75L80 87.5L76 88M77.5 74.8205L76 88M77.5 74.8205L71.3 78M76 88L65.5 89.3125M71.3 78V88M71.3 78L65.5 80.9744M65.5 80.9744V89.3125" stroke="black" stroke-width="2"/>
+</svg>

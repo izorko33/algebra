@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./register.html">Register</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Register</h1>
+        <form action="./results.html" method="get">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required />
+            <br /><br />
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+            <br /><br />
+
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass" required />
+            <br /><br />
+
+            <label for="subscribe">Subribe to newsletter:</label>
+            <input type="checkbox" name="subscribe" id="subscribe" />
+            <br />
+            <br />
+            <div>
+                <p>Sex:</p>
+                <label for="gender-m">M</label>
+                <input type="radio" name="gender" id="gender-m" value="m" />
+                <label for="gender-f">F</label>
+                <input type="radio" name="gender" id="gender-f" value="f" />
+            </div>
+            <br /><br />
+            <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>

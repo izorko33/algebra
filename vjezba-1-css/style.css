@@ -1,0 +1,17 @@
+body {
+    background-color: burlywood;
+}
+
+h1 {
+    color: red;
+    font-size: 100px;
+}
+
+p {
+    font-size: 18px;
+    color: blue;
+}
+
+/* ul li {
+    color: yellow;
+} */

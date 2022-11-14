@@ -1,0 +1,42 @@
+/* Kombinatori - samostalna vježba */
+
+/* tablica s id-jem price-table-wrapper - svakom neparnom retku koji sadrži informacije o proizvodima postaviti boju pozadine na #f6f6f6 */
+#price-table-wrapper tbody tr:nth-child(odd) {
+    background-color: #6b6b6b;
+}
+
+/* potrebno je neparnim paragrafima unutar sekcije additional-news postaviti veličinu fonta na 22px, ali samo onima koji su child navedene sekcije */
+.additional-news > p:nth-of-type(odd) {
+    font-size: 22px;
+    background-color: turquoise;
+}
+
+/* u login formi je potrebno napraviti sljedeće: kad je username input u focusu, potrebno je submit buttonu promijeniti boju pozadine u žutu */
+#login-form input[type="email"]:focus + button[type="submit"] {
+    background-color: yellow;
+}
+
+/* kad prelazimo mišem preko inputa, pozadina inputa mora imati boju aqua */
+#login-form input[type="email"]:hover {
+    background-color: aqua;
+}
+
+/* dok se mišem drži kliknuto na submit button, on mora imati boju pozadine zelenu */
+#login-form button[type="submit"]:active {
+    background-color: green;
+}
+
+/* sekcija local-news: potrebno je svim paragrafima nakon sekcije aside-section postaviti boju teksta u chocolate */
+.local-news #aside-section ~ p {
+    background-color: chocolate;
+}
+
+/* napraviti tablicu (i dati joj neki id) na način da se pozadine ćelija generiraju kao na slici table-2.png; izgled bordera zanemariti; svjetlija siva - #d0cdcd; tamnija siva - #a1a1a1 */
+.crossed-table tr:nth-child(even),
+.crossed-table tr td:nth-child(even) {
+    background-color: #d0cdcd;
+}
+
+.crossed-table tr:nth-child(even) td:nth-child(even) {
+    background-color: #a1a1a1;
+}

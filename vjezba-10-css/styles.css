@@ -1,0 +1,20 @@
+/* Potrebno je svakom neparnom paragrafu unutar sekcije main-news postaviti veličinu fonta na 22px */
+.main-news p:nth-child(odd) {
+    font-size: 22px;
+}
+
+/* svim članovima liste unutar highlighted-tasks elementa treba postaviti pozadinu na žutu na način da svakom trećem elementu liste postavi pozadina, ali da se svaki put počinje od drugog elementa u listi */
+.highlighted-tasks ul li:nth-child(3n + 2) {
+    background-color: yellow;
+}
+
+
+/* svim linkovima unutar sekcije external-links koji se otvaraju u novom tabu postaviti boju teksta u crvenu */
+.external-links a[target="_blank"] {
+    color: red;
+}
+
+/* svim linkovima unutar sekcije external-links kojima referenca završava na "gov.hr" staviti boju pozadine "aqua" */
+.external-links a[href$="gov.hr"] {
+    background-color: aqua;
+}

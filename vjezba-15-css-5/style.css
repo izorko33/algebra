@@ -1,0 +1,12 @@
+.mountain {
+    /* background-image: url("./images/Rivers-of-the-World-Cover.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+
+    color: transparent;
+
+    background: url(./images/eagle-small.png) no-repeat top center/auto,
+        url(./images/eagle-small.png) no-repeat bottom center/auto,
+        url("./images/Rivers-of-the-World-Cover.webp") no-repeat center/cover;
+}

@@ -1,0 +1,20 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.bolded {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+    text-decoration: ;
+}
+
+.reded {
+    color: red;
+}
+
+.grenned {
+    color: green;
+}

@@ -1,0 +1,23 @@
+.abejas-imagen {
+    background-image: url("./images/Rectangle\ 4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flying-bee {
+    background: url(./images/Rectangle\ 6.png) no-repeat top left/auto,
+        url(./images/Rectangle\ 6.png) no-repeat bottom right/auto;
+}
+
+.gra-yellow {
+    background: linear-gradient(90deg, #ffc700, white);
+}
+
+.bee-gra {
+    background: linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 199, 0, 1) 100%
+        ),
+        url(./images/Rectangle\ 4.png) no-repeat bottom right/cover;
+}

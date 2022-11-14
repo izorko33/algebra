@@ -1,0 +1,32 @@
+a {
+    text-decoration: none;
+    color: seagreen;
+    cursor: default;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.small {
+    font-variant: small-caps;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-indended {
+    text-indent: 20px;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+    text-shadow: 2px 2px 3px yellow;
+    line-height: 2;
+}

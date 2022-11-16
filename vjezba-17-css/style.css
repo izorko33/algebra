@@ -50,12 +50,22 @@ h1 {
 .snippet {
     width: 688px;
     border-left: 8px solid #24bb0c;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     max-width: 100%;
+    background-color: #fbfbfb;
+    border-radius: 10px;
+}
+
+.snippet:first-child {
+    margin-top: 70px;
+}
+
+.snippet:hover {
+    box-shadow: 18px 16px 80px -18px rgba(0, 0, 0, 0.75);
 }
 
 .snippet .head-p {
-    /* padding: 28px; */
+    padding: 25px;
 }
 
 .snippet .head-p p {

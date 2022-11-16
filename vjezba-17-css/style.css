@@ -54,14 +54,16 @@ h1 {
     max-width: 100%;
     background-color: #fbfbfb;
     border-radius: 10px;
+    box-shadow: 3px 4px 9px -3px rgba(0, 0, 0, 0.18);
 }
 
-.snippet:first-child {
+.top-margin {
     margin-top: 70px;
 }
 
 .snippet:hover {
-    box-shadow: 18px 16px 80px -18px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 4px 18px -3px rgba(0, 0, 0, 0.31);
+    cursor: pointer;
 }
 
 .snippet .head-p {

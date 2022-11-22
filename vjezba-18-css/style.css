@@ -1,0 +1,18 @@
+.flexic {
+    display: flex;
+    width: 600px;
+    height: 400px;
+    max-width: 100%;
+    background-color: blue;
+    justify-content: center;
+    align-items: stretch;
+    /* flex-wrap: wrap; */
+}
+
+.bananica {
+    width: 100px;
+    height: auto;
+    background-color: brown;
+    margin: 4px;
+    word-break: break-all;
+}
